@@ -17,7 +17,7 @@ def baidu_search(query: str, num_results=8):
 
     headers = {
         'Cookie': os.getenv("BAIDU_COOKIE"),
-        'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+        'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:112.0) Gecko/20100101 Firefox/112.0"
     }
     url = f'https://www.baidu.com/s?wd={query}&rn={num_results}'
     response = requests.get(url, headers=headers)
