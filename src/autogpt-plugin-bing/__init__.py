@@ -84,10 +84,10 @@ class Message(TypedDict):
 class AutoGPTBingBaiduSearch(AutoGPTPluginTemplate):
     def __init__(self):
         super().__init__()
-        self._name = "Bing-Search-Plugin"
+        self._name = "Bing-Baidu-Search-Plugin"
         self._version = "0.1.0"
         self._description = (
-            "This plugin performs Bing searches using the provided query."
+            "This plugin performs Bing and Baidu searches using the provided query."
         )
         self._query = ""
         self.able_to_handle_post_command = True
