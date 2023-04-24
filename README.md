@@ -25,6 +25,7 @@ If the environment variables for the search engine (`SEARCH_ENGINE`) and the Azu
 
 Example of the `.env` file:
 ```
+SEARCH_ENGINE=bing
 AZURE_API_KEY=your_azure_api_key
 ```
 
