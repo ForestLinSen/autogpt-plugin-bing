@@ -21,9 +21,10 @@ If the environment variables for the search engine (`SEARCH_ENGINE`) and the Azu
 4. Copy the key from there and add it to the `.env` file in your project directory.
 5. Name the environment variable `AZURE_API_KEY`.
 
+![Azure Key](./screenshots/azure_api.png)
+
 Example of the `.env` file:
 ```
-SEARCH_ENGINE=bing
 AZURE_API_KEY=your_azure_api_key
 ```
 

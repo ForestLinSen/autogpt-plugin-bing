@@ -21,6 +21,8 @@ Auto-GPT 必应搜索插件是基础项目 Auto-GPT 的一个实用插件。为�
 4. 从那里复制密钥并将其添加到项目目录中的 .env 文件中。
 5. 将环境变量命名为 `AZURE_API_KEY`。
 
+![Azure Key](./screenshots/azure_api.png)
+
 `.env` 文件示例：
 ```
 SEARCH_ENGINE=bing
