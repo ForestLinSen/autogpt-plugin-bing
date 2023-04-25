@@ -8,7 +8,7 @@ Auto-GPT 必应搜索插件是基础项目 Auto-GPT 的一个实用插件。为�
 - 必应搜索：使用必应搜索引擎进行搜索查询。
 
 ## 工作原理：
-如果设置了搜索引擎（`SEARCH_ENGINE`）和Azure API密钥(`AZURE_API_KEY `)的环境变量，搜索引擎将设置为必应
+如果设置了搜索引擎（`SEARCH_ENGINE`）和Azure API密钥(`BING_API_KEY`)的环境变量，搜索引擎将设置为必应
 
 ## 安装:
 1. 以 ZIP 文件格式下载 Auto-GPT 必应搜索插件存储库。
@@ -19,14 +19,14 @@ Auto-GPT 必应搜索插件是基础项目 Auto-GPT 的一个实用插件。为�
 2. 登录您的 Microsoft Azure 帐户，如果没有帐户，请创建一个新帐户。
 3. 设置帐户后，转到 "Keys and Endpoint" 部分。
 4. 从那里复制密钥并将其添加到项目目录中的 .env 文件中。
-5. 将环境变量命名为 `AZURE_API_KEY`。
+5. 将环境变量命名为 `BING_API_KEY`。
 
 ![Azure Key](./screenshots/azure_api.png)
 
 `.env` 文件示例：
 ```
 SEARCH_ENGINE=bing
-AZURE_API_KEY=your_azure_api_key
+BING_API_KEY=your_bing_api_key
 ```
 
-请将 `your_azure_api_key` 替换为从 Microsoft Azure 获取的实际 API 密钥。
+请将 `your_bing_api_key` 替换为从 Microsoft Azure 获取的实际 API 密钥。

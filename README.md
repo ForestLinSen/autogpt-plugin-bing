@@ -8,7 +8,7 @@ The Auto-GPT Bing Search Plugin is a useful plugin for the base project, Auto-GP
 - Bing Search: Perform search queries using the Bing search engine.
 
 ## How it works
-If the environment variables for the search engine (`SEARCH_ENGINE`) and the Azure API key (`AZURE_API_KEY`) are set, the search engine will be set to Bing.
+If the environment variables for the search engine (`SEARCH_ENGINE`) and the Azure API key (`BING_API_KEY`) are set, the search engine will be set to Bing.
 
 ## Installation:
 1. Download the Auto-GPT Bing Search Plugin repository as a ZIP file.
@@ -19,15 +19,14 @@ If the environment variables for the search engine (`SEARCH_ENGINE`) and the Azu
 2. Sign into your Microsoft Azure account or create a new account if you don't have one.
 3. After setting up your account, go to the "Keys and Endpoint" section.
 4. Copy the key from there and add it to the `.env` file in your project directory.
-5. Name the environment variable `AZURE_API_KEY`.
+5. Name the environment variable `BING_API_KEY`.
 
 ![Azure Key](./screenshots/azure_api.png)
 
 Example of the `.env` file:
 ```
 SEARCH_ENGINE=bing
-AZURE_API_KEY=your_azure_api_key
+BING_API_KEY=your_bing_api_key
 ```
 
-Remember to replace `your_azure_api_key` with the actual API key you obtained from the Microsoft Azure portal.
-
+Remember to replace `your_bing_api_key` with the actual API key you obtained from the Microsoft Azure portal.
